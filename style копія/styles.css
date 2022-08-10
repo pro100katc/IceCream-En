@@ -1,0 +1,155 @@
+:root {
+    --body-background-color: #ffff;
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --link-color: #2196f3;
+    --footer-background-color: #2f303a;
+    --team-section-color: #f5f4fa;
+    --studio-color: #000000;
+    --icon-color: #afb1b8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background-color: var(--body-background-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+
+.container {
+    width: 1380px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header {
+    content: "";
+    background-image: url(../images/icecream.svg),
+        url(../images/slider-pic4\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #FFB8CA;
+    background-position: right;
+}
+
+.header-container {
+    position: relative;
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 35px;
+}
+
+.intro-title {
+    text-transform: uppercase;
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 44px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+}
+
+.intro-passion {
+    color: rgba(212, 20, 67, 1);
+}
+
+.by {
+    position: absolute;
+    width: 159px;
+    height: 44px;
+    left: 1025px;
+    top: 40px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    color: #D41443;
+    background: #ECEBEB;
+    border-radius: 20px;
+    border: none;
+}
+
+.products {
+    width: 107px;
+    height: 40px;
+    left: 16px;
+    top: 308px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    border: none;
+    color: #D41443;
+    background: #ECEBEB;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.how-made {
+    width: 138px;
+    height: 40px;
+    left: 135px;
+    top: 308px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    border-radius: 20px;
+    border: none;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    color: #D41443;
+    background: #ECEBEB;
+
+}
+
+.products:hover,
+.how-made:hover {
+    color: #ECEBEB;
+    background: #D41443;
+}
